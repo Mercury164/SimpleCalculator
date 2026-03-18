@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.SimpleCalculator" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/calculator_operation</item>
+        <item name="colorPrimaryVariant">@color/calculator_operation</item>
+        <item name="colorOnPrimary">@color/calculator_text</item>
+        <item name="colorSecondary">@color/calculator_equal</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/calculator_background</item>
+    </style>
+
+    <style name="Widget.SimpleCalculator.Button.Base" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">72dp</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="cornerRadius">24dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/calculator_text</item>
+        <item name="backgroundTint">@color/calculator_number</item>
+    </style>
+
+    <style name="Widget.SimpleCalculator.Button.Number" parent="Widget.SimpleCalculator.Button.Base">
+        <item name="backgroundTint">@color/calculator_number</item>
+    </style>
+
+    <style name="Widget.SimpleCalculator.Button.Action" parent="Widget.SimpleCalculator.Button.Base">
+        <item name="backgroundTint">@color/calculator_action</item>
+    </style>
+
+    <style name="Widget.SimpleCalculator.Button.Operation" parent="Widget.SimpleCalculator.Button.Base">
+        <item name="backgroundTint">@color/calculator_operation</item>
+    </style>
+
+    <style name="Widget.SimpleCalculator.Button.Equal" parent="Widget.SimpleCalculator.Button.Base">
+        <item name="backgroundTint">@color/calculator_equal</item>
+    </style>
+</resources>

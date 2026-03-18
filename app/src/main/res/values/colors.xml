@@ -1,0 +1,10 @@
+<resources>
+    <color name="calculator_background">#101418</color>
+    <color name="calculator_number">#1F2937</color>
+    <color name="calculator_action">#374151</color>
+    <color name="calculator_operation">#F59E0B</color>
+    <color name="calculator_equal">#10B981</color>
+    <color name="calculator_text">#FFFFFF</color>
+    <color name="calculator_subtext">#9CA3AF</color>
+    <color name="ic_launcher_background">#0F172A</color>
+</resources>
